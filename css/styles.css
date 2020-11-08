@@ -415,7 +415,7 @@ address {
   fill: currentColor;
 }
 
-.social-icons-link:hover {
+.social-icons-link:hover .social-icons-link:focus {
   background-color: var(--accent-cl);
 }
 
@@ -465,6 +465,10 @@ address {
   fill: var(--accent-cl);
 }
 
+.contacts {
+  width: 16.8px;
+}
+
 .footer {
   display: inline-block;
   justify-content: flex-start;
@@ -473,6 +477,7 @@ address {
 .footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
+  width: 16.8px;
 }
 
 .footer-list {
