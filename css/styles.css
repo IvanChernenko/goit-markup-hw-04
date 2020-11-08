@@ -425,7 +425,7 @@ address {
 }
 
 .clients {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
   padding-top: 94px;
 }
 
@@ -460,8 +460,8 @@ address {
   border-color: var(--accent-cl);
 }
 
-.clients-icons-link:hover .social-icons-logo-1,
-.clients-icons-link:focus .social-icons-logo-1 {
+.clients-icons-link:hover .clients-icons-logo-1,
+.clients-icons-link:focus .clients-icons-logo-1 {
   fill: var(--accent-cl);
 }
 
