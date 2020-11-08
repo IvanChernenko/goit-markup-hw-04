@@ -465,6 +465,10 @@ address {
   fill: var(--accent-cl);
 }
 
+.footer {
+  display: flex;
+}
+
 .footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
