@@ -412,6 +412,11 @@ address {
   fill: #afb1b8;
 }
 
+.social-icons-link:hover .social-icons-svg,
+.social-icons-link:focus .social-icons-svg {
+  fill: var(--accent-cl);
+}
+
 .footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
