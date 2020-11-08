@@ -467,6 +467,7 @@ address {
 
 .footer {
   display: flex;
+  justify-content: flex-start;
 }
 
 .footer-container {
