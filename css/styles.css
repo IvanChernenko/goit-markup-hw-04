@@ -388,11 +388,6 @@ address {
   margin-bottom: 16px;
 }
 
-.clients {
-  margin-bottom: 94px;
-  padding-top: 94px;
-}
-
 .social-icons {
   display: flex;
   justify-content: center;
@@ -426,6 +421,35 @@ address {
 .social-icons-link:hover .social-icons-svg,
 .social-icons-link:focus .social-icons-svg {
   fill: var(--white);
+}
+
+.clients {
+  margin-bottom: 94px;
+  padding-top: 94px;
+}
+
+.clients-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-icons-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-icons-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  background-color: var(--white);
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-icons-svg {
 }
 
 .footer-container {
