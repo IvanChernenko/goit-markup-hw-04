@@ -362,6 +362,7 @@ address {
   background-color: var(--light-grey);
   margin-bottom: 94px;
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .crew-name {
   font-family: Roboto;
@@ -450,6 +451,9 @@ address {
 }
 
 .clients-icons-svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
 
 .footer-container {
