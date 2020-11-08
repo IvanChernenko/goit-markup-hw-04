@@ -406,10 +406,28 @@ address {
   border-radius: 50%;
 }
 
-.social-icons-svg {
+.social-icons-svg-instagram {
   width: 20px;
   height: 20px;
-  fill: var(--black);
+  fill: #afb1b8;
+}
+
+.social-icons-svg-twitter {
+  width: 20px;
+  height: 16.25px;
+  fill: #afb1b8;
+}
+
+.social-icons-svg-facebook {
+  width: 10px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.social-icons-svg-linkedin {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
 }
 
 .footer-container {
