@@ -403,19 +403,23 @@ address {
   width: 44px;
   height: 44px;
   background-color: var(--white);
+  color: #afb1b8;
   border-radius: 50%;
 }
 
 .social-icons-svg {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: currentColor;
+}
+
+.social-icons-link:hover {
+  background-color: var(--accent-cl);
 }
 
 .social-icons-link:hover .social-icons-svg,
 .social-icons-link:focus .social-icons-svg {
   fill: var(--white);
-  background-color: var(--accent-cl);
 }
 
 .footer-container {
