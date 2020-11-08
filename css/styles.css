@@ -360,7 +360,7 @@ address {
 }
 .crew-container {
   background-color: var(--light-grey);
-  padding-bottom: 94px;
+  margin-bottom: 94px;
   padding-top: 94px;
 }
 .crew-name {
@@ -386,6 +386,10 @@ address {
   color: var(--main-text-cl);
   margin: 0;
   margin-bottom: 16px;
+}
+
+.clients {
+  margin-bottom: 94px;
 }
 
 .social-icons {
