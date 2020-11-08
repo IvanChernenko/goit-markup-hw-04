@@ -456,6 +456,15 @@ address {
   fill: currentColor;
 }
 
+.clients-icons-link:hover {
+  border-color: var(--accent-cl);
+}
+
+.clients-icons-link:hover .social-icons-logo-1,
+.clients-icons-link:focus .social-icons-logo-1 {
+  fill: var(--accent-cl);
+}
+
 .footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
