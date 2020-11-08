@@ -414,7 +414,7 @@ address {
 
 .social-icons-link:hover .social-icons-svg,
 .social-icons-link:focus .social-icons-svg {
-  fill: var(--accent-cl);
+  fill: var(--white);
 }
 
 .footer-container {
