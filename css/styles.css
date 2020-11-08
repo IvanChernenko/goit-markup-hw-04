@@ -415,7 +415,7 @@ address {
   fill: currentColor;
 }
 
-.social-icons-link:hover .social-icons-link:focus {
+.social-icons-link:hover {
   background-color: var(--accent-cl);
 }
 
