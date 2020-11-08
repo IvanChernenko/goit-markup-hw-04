@@ -197,7 +197,7 @@ address {
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
-    )
+    ),
     url("../img/bgr.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -236,6 +236,7 @@ address {
   border-radius: 4px;
   background-color: var(--accent-cl);
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .btn:hover,
@@ -292,6 +293,32 @@ address {
   width: calc((100%-90px) / 4);
   margin-right: 30px;
 }
+
+.content-box::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: #f5f4fa;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content-box.icon-antenna::before {
+  background-image: url("../img/antenna.png");
+}
+
+.icon-clock::before {
+  background-image: url("../img/clock.png");
+}
+.icon-diagram::before {
+  background-image: url("../img/diagram.png");
+}
+
+.icon-astronaut::before {
+  background-image: url("../img/astronaut.png");
+}
+
 .duties {
   margin-bottom: 94px;
 }
