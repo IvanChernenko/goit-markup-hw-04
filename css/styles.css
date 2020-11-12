@@ -67,6 +67,12 @@ address {
   padding-bottom: 25px;
 }
 
+.header-border {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+
 .header-portfolio {
   border-bottom: 1px solid #ececec;
   margin-bottom: 100px;
@@ -85,6 +91,10 @@ address {
 }
 
 .header .logo {
+  margin-right: 93px;
+}
+
+.header-border .logo {
   margin-right: 93px;
 }
 
@@ -306,6 +316,8 @@ address {
 .content-box {
   width: calc((100%-90px) / 4);
   margin-right: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* .content-box::before {
@@ -329,11 +341,13 @@ address {
   border-radius: 4px;
 }
 
-/* .icon-box {
+.icon-box {
   display: flex;
   align-items: center;
   justify-content: center;
-} */
+  width: 70px;
+  height: 70px;
+}
 
 .duties {
   margin-bottom: 94px;
@@ -468,8 +482,7 @@ address {
 }
 
 .clients-icons-svg {
-  /* width: 45px;
-  height: 50px; */
+  height: 50px;
   fill: currentColor;
 }
 
@@ -553,7 +566,8 @@ address {
   fill: var(--white);
 }
 
-.footer-icons-link:hover {
+.footer-icons-link:hover,
+.footer-icons-link:focus {
   background-color: var(--accent-cl);
 }
 
@@ -620,6 +634,11 @@ address {
   margin-left: 30px;
   margin-top: 30px;
   display: block;
+}
+
+.portfolio-box:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-lst {
